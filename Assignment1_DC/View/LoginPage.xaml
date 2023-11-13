@@ -1,0 +1,22 @@
+﻿<Window x:Class="Assignment1_DC.View.LoginPage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="LoginPage" Height="450" Width="800"
+        Background="#2F3136">
+    <Grid>
+        <TextBox x:Name="UsernameTextBox" 
+                 Text="Username"
+                 HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,373,205"
+                 Width="200" Height="33" TextAlignment="Center" 
+                 VerticalContentAlignment="Center" HorizontalContentAlignment="Center" 
+                 />
+        <Button x:Name="LoginButton"
+                Content="Login" FontWeight="SemiBold"
+                HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="465,0,0,207" 
+                Width="132" Height="30" 
+                Background="#527DD0" Foreground="White" BorderThickness="2" 
+                HorizontalContentAlignment="Center" 
+                Click="LoginButton_Click"
+                />
+    </Grid>
+</Window>
